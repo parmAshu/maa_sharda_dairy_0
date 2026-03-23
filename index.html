@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Sharda Dairy - Pure Desi Cow A2 Milk</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-lang="en">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <img src="images/MSDLogo.png" alt="Maa Sharda Dairy Logo" class="me-2 navbar-logo">
+                <span><span class="text-success" data-i18n="brand_name">Maa Sharda Dairy</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="#hero" data-i18n="nav_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav_about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products" data-i18n="nav_products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav_contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3 d-none d-lg-block">
+                        <div class="lang-switcher">
+                            <button class="btn btn-sm btn-outline-light lang-btn active" data-lang-switch="en">EN</button>
+                            <button class="btn btn-sm btn-outline-light lang-btn" data-lang-switch="hi">हिन्दी</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center text-center text-white">
+        <div class="container hero-content">
+            <h1 class="display-3 fw-bold mb-4" data-i18n="hero_title">Purity in Every Drop</h1>
+            <p class="lead mb-5" data-i18n="hero_lead">Experience the authentic taste and health benefits of Sahiwal Desi Cow A2 Milk, straight from our farm to your home.</p>
+            <a href="#products" class="btn btn-warning btn-lg px-5 py-3 rounded-pill fw-bold shadow" data-i18n="hero_btn">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0 reveal-on-scroll">
+                    <img src="images/sahiwal_front.png" alt="Happy Desi Cow" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-md-6 reveal-on-scroll">
+                    <h2 class="section-title mb-4" data-i18n="about_title">Our Cows</h2>
+                    <p class="mb-4" data-i18n="about_para1">At the heart of our dairy lies the Sahiwal, a legendary breed originating from the fertile plains of the Punjab. The Sahiwal is globally recognized as the finest milch breed of the Indian subcontinent.</p>
+                    <p class="mb-4" data-i18n="about_para2">We treat our herd with the respect they deserve, blending traditional Vedic care with modern hygiene standards to bring you milk exactly as nature intended.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> <span data-i18n="about_feat1">Sahiwal cows naturally produce milk containing only the A2 beta-casein protein. This makes our milk easier on the stomach, reducing bloating and ensuring better nutrient absorption for your entire family.</span></li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> <span data-i18n="about_feat2">Sahiwal milk is famous for its high fat content (4.5% - 5.5%) and rich mineral profile. It is the secret behind our aromatic, golden-yellow Ghee and thick, creamy dahi.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light-cream">
+        <div class="container py-5">
+            <h2 class="text-center section-title mb-5 reveal-on-scroll" data-i18n="products_title">Our Products</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 reveal-on-scroll">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 product-card">
+                        <img src="images/sahiwal_a2_milk.png" class="card-img-top rounded-top-4" alt="Pure A2 Milk">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold" data-i18n="prod1_title">Pure Sahiwal Desi Cow A2 Milk</h5>
+                            <p class="card-text text-muted" data-i18n="prod1_text">Fresh and raw A2 milk from Sahiwal cows. Perfect for your family's daily health.</p>
+                            <a href="#contact" class="btn btn-outline-success rounded-pill px-4" data-i18n="order_now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-5 bg-success text-white">
+        <div class="container py-5">
+            <h2 class="text-center section-title text-white mb-5" data-i18n="benefits_title">Why Choose A2 Milk?</h2>
+            <div class="row g-5 text-center">
+                <div class="col-md-4">
+                    <h4 data-i18n="ben1_title">A2 Protein - Better Digestion</h4>
+                    <p data-i18n="ben1_text">Sahiwal Cow Milk has good amount of A2 protein which is much needed for body maintenance and growth. It is easier on the stomach compared to regular A1 milk, reducing bloating and discomfort.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben2_title">Improves health</h4>
+                    <p data-i18n="ben2_text">Sahiwal Cow's Milk is rich in nutrients like omega-3 fatty acids, antioxidants etc.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben3_title">Stronger Bones</h4>
+                    <p data-i18n="ben3_text">Sahiwal Cow's A2 Milk is rich in calcium that is essential for strong bones.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben4_title">No Hormones or Preservatives</h4>
+                    <p data-i18n="ben4_text">We do not inject hormones to our cows for milk. Neither do we add preservatives to our products</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben5_title">Organic and Natural</h4>
+                    <p data-i18n="ben5_text">We feed natural balanced diet to our cows. We also feed our cows natural herbs and avoid drug use. Our cows roam about freely. This improves cow's healt and milk's quality.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben6_title">Creamy texture and golden hue</h4>
+                    <p data-i18n="ben6_text">Desi cow milk can be identified by its golden hue. The golden hue is due to beta-carotene which is a natural antioxidant.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben7_title">Hygienic and clean</h4>
+                    <p data-i18n="ben7_text">Our milking process is extremely hygienic and well monitored. Our milkers clean and sanitize themselves before milking. Udders are cleaned thoroughly before and after milking. Antiseptic solutions are used to clean udders after milking and calf is done feeding. All containers are thoroughly cleaned with sanitzed with hot water or steam.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben8_title">Ethical</h4>
+                    <p data-i18n="ben8_text">At our farm our cows are treated like are mothers. Our cows are fed natural diet, natural herbs and have access to clean drinking water at all times. Our cows roam freely and we maintain clean living conditions for them. Ours calves are well cared for and fed sufficient milk till needed. We donot abandon our Gaumata at any time. Once they enter our farm they live with us till the end.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 data-i18n="ben9_title">Suddh (Pure)</h4>
+                    <p data-i18n="ben9_text">Only desi cow's milk and by-products can be used for dharmic use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title text-center mb-5" data-i18n="contact_title">Get In Touch</h2>
+                    <p class="mb-5 mx-auto" style="max-width: 700px;" data-i18n="contact_para">Have questions or want to subscribe to our fresh A2 milk? Reach out to us. We’d love to hear from you and bring purity to your doorstep.</p>
+                    
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4 h-100 rounded-4">
+                                <i class="fas fa-map-marker-alt text-success fs-2 mb-3"></i>
+                                <h6 class="fw-bold" data-i18n="contact_loc">Our Location</h6>
+                                <p class="text-muted small mb-0" data-i18n="contact_addr">Maa Sharda Dairy Farm, Village Palki, Vidisha</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4 h-100 rounded-4">
+                                <i class="fas fa-phone-alt text-success fs-2 mb-3"></i>
+                                <h6 class="fw-bold" data-i18n="contact_phone">Phone Number</h6>
+                                <p class="text-muted small mb-0">+91 9425463362</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4 h-100 rounded-4">
+                                <i class="fas fa-envelope text-success fs-2 mb-3"></i>
+                                <h6 class="fw-bold" data-i18n="contact_email">Email Address</h6>
+                                <p class="text-muted small mb-0">maashardadairybhs@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4 border-bottom border-secondary pb-4 mb-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-4"><span class="text-success" data-i18n="brand_name">Maa Sharda Dairy</span></h4>
+                    <p class="text-secondary small" data-i18n="footer_desc">Bringing the tradition of pure Desi Sahiwal Cow A2 milk back to your table. Healthy cows, healthy life.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-4" data-i18n="footer_links">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#hero" class="text-secondary text-decoration-none" data-i18n="nav_home">Home</a></li>
+                        <li><a href="#about" class="text-secondary text-decoration-none" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="#products" class="text-secondary text-decoration-none" data-i18n="nav_products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-4" data-i18n="footer_follow">Follow Us</h6>
+                    <div class="d-flex gap-3">
+                        <a href="https://www.instagram.com/maasharda.dairy?igsh=aWFjenV0bXh5b201" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center small text-secondary">
+                &copy; 2026 Maa Sharda Dairy. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
